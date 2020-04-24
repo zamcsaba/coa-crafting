@@ -1,0 +1,8 @@
+extends ../main
+
+block content
+    h1 Add a new base ingredient
+    form(action='add' method='POST')
+        span Name:
+        input(name='name')
+        input(type='submit' value='Submit')
