@@ -1,0 +1,30 @@
+Alchemist's Table
+Farmer's Mill
+Farmer's Press
+Public Forge
+Armor Crafting Anvil
+Weapon Crafting Anvil
+Curing Tub
+Tailor Table
+Hide Rack
+Brewer's Oven
+Brewer's Kettle
+Brewer's Keg
+Baker's Oven
+Ingot Recycler
+Silver-Coating Brazier
+Carpenter's Bench
+Tinker's Device
+Tinker's Furnace
+Tinker's Toolbox
+Holy Pool
+Jeweller's Bench
+Gem Detailing Table
+Gem Cutter's Stone
+Mineral Bath
+Gem Crusher
+Ink Desk
+Scribing Station
+Enchanting Altar
+Enchanting Pool
+Scribing Station, Lesser

@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './AppController';
 import { AppService } from './AppService';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { SeedModule } from './seed/SeedModule';
 
 // Main module
 @Module({
@@ -17,6 +18,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
             autoLoadEntities: true,
             entities: ['dist/Entities/*.{ts,.js}'],
         }),
+        SeedModule,
     ],
     controllers: [AppController],
     providers: [AppService],

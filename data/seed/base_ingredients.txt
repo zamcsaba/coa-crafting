@@ -1,0 +1,95 @@
+# Basics
+Empty Flask
+Glass Vial
+Empty Juice Bottle
+
+# Leaves & Flowers
+Angelica Leaf
+Aloe Leaf
+Peppermint Leaf
+Chamomile Flower
+Clover Leaf
+Thistle Leaf
+Hops Flower
+Sage Leaf
+Hawthorn Flower
+Catnip Leaf
+Hazel Leaf
+Witch Hazel
+Blue Whinnis Flower
+
+# Roots & Cloves
+Garlic Clove
+Black Cohosh Root
+Comfrey Root
+Ginger Root
+Ginseng Root
+Terinav Root
+
+# Mushrooms
+Purple Mushroom
+White Mushroom
+Red Mushroom
+Black Mushroom
+Spotted Mushroom
+Yellow Mushroom
+Striped Toadstool
+
+# Nuts & seeds
+Walnut
+Hazelnut
+Almond
+Chestnut
+Pecan
+Belladonna
+
+# Animal / Monster Remains
+Skeleton's Knuckle
+Fire Beetle's Belly
+Bombardier Beetle's Belly
+Stink Gland
+Centipede Carapace
+Venom Gland (Hullack Spider)
+Venom Gland (Medium Spider)
+Ettercap Gland
+Troll's Blood
+Carrion Crawler Brain
+Giant Wasp Stinger
+Slaad Tongue
+Large Spider Gland
+
+# Fruits
+Cranberry
+Elderberry
+Blueberry
+Blackberry
+Apple
+
+# Fishes
+Fish Entrails
+Brownwater Eel
+Rainbow Trout
+
+# Gems
+Greenstone
+Malachite
+Fire Agate
+Aventurine
+Phenalope
+Amethyst
+Feldspar
+Garnet
+Alexandrite
+Topaz
+Sapphire
+Fire Opal
+Diamond
+Ruby
+Emerald
+
+# Misc
+Birch Bark
+Graveyard Dirt
+Owl's Feathers
+Honey
+Chicken Egg

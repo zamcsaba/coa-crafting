@@ -14,4 +14,9 @@ export class AppController {
             message: 'Welcome to CoA Crafting Helper!',
         };
     }
+
+    @Get('/seed')
+    async seed() {
+
+    }
 }

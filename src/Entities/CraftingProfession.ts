@@ -5,6 +5,8 @@ export class CraftingProfession {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @Column()
+    @Column({
+        unique: true,
+    })
     name: string;
 }
