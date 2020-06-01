@@ -7,10 +7,14 @@ export class IngredientCrafting {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @ManyToOne(() => Ingredient)
+    @ManyToOne(() => Ingredient, {
+        eager: true,
+    })
     ingredient: Ingredient;
 
-    @ManyToOne(type => CraftingData)
+    @ManyToOne(() => CraftingData, {
+        eager: true,
+    })
     craftingData: CraftingData;
 
     @Column('int')

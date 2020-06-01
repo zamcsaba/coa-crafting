@@ -13,9 +13,13 @@ export class CraftingData {
     @Column()
     xp: number;
 
-    @ManyToOne(() => CraftingStationType)
+    @ManyToOne(() => CraftingStationType, {
+        eager: true,
+    })
     craftingStationType: CraftingStationType;
 
-    @ManyToOne(() => CraftingProfession)
+    @ManyToOne(() => CraftingProfession, {
+        eager: true,
+    })
     craftingProfession: CraftingProfession;
 }

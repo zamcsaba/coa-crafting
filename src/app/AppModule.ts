@@ -3,6 +3,7 @@ import { AppController } from './AppController';
 import { AppService } from './AppService';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { SeedModule } from './seed/SeedModule';
+import { CraftModule } from './craft/CraftModule';
 
 // Main module
 @Module({
@@ -19,6 +20,7 @@ import { SeedModule } from './seed/SeedModule';
             entities: ['dist/Entities/*.{ts,.js}'],
         }),
         SeedModule,
+        CraftModule,
     ],
     controllers: [AppController],
     providers: [AppService],

@@ -7,12 +7,16 @@ export class IngredientRequirement {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @ManyToOne(() => Ingredient)
+    @ManyToOne(() => Ingredient, {
+        eager: true,
+    })
     ingredient: Ingredient;
 
     @Column('int')
     quantity: number;
 
-    @ManyToOne(() => CraftingData)
+    @ManyToOne(() => CraftingData, {
+        eager: false,
+    })
     craftingData: CraftingData;
 }

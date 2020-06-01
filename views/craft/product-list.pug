@@ -1,0 +1,9 @@
+extends ../main
+
+block content
+    h1 Products
+    div
+        ul
+            each product in products
+                li
+                    a(href=`/craft/product/${product.id}`)=product.name

@@ -7,10 +7,14 @@ export class ProductCrafting {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @ManyToOne(() => Product)
+    @ManyToOne(() => Product, {
+        eager: true,
+    })
     product: Product;
 
-    @OneToOne(() => CraftingData)
+    @OneToOne(() => CraftingData, {
+        eager: true,
+    })
     @JoinColumn()
     craftingData: CraftingData;
 
