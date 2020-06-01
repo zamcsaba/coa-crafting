@@ -42,6 +42,9 @@ Almond
 Chestnut
 Pecan
 Belladonna
+Corn
+Rice
+
 
 # Animal / Monster Remains
 Skeleton's Knuckle
@@ -64,6 +67,10 @@ Elderberry
 Blueberry
 Blackberry
 Apple
+Cherry
+Grape
+Pear
+Juniper Berry
 
 # Fishes
 Fish Entrails
@@ -71,21 +78,21 @@ Brownwater Eel
 Rainbow Trout
 
 # Gems
-Greenstone
-Malachite
-Fire Agate
-Aventurine
-Phenalope
-Amethyst
-Feldspar
-Garnet
-Alexandrite
-Topaz
-Sapphire
-Fire Opal
-Diamond
-Ruby
-Emerald
+Mineral Greenstone
+Mineral Malachite
+Mineral Fire Agate
+Mineral Aventurine
+Mineral Phenalope
+Mineral Amethyst
+Mineral Feldspar
+Mineral Garnet
+Mineral Alexandrite
+Mineral Topaz
+Mineral Sapphire
+Mineral Fire Opal
+Mineral Diamond
+Mineral Ruby
+Mineral Emerald
 
 # Misc
 Birch Bark

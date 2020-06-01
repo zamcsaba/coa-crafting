@@ -1,0 +1,89 @@
+extends ../main
+
+block content
+    h1(class='uk-heading') Add new crafting process
+    div
+        form(action='/seed/add-data', method='POST' class='uk-form-stacked')
+            h3 Basic Data
+            div(class='uk-margin')
+                label(class='uk-form-label' for='level') Level
+                input(name='level' id='level' class='uk-input' type='number')
+            div(class='uk-margin')
+                label(class='uk-form-label' for='xp') XP
+                input(name='xp' id='xp' class='uk-input' type='number')
+            div(class='uk-margin')
+                label(class='uk-form-label' for='profession') Profession
+                input(name='profession' id='profession' class='uk-input' type='text')
+            div(class='uk-margin')
+                label(class='uk-form-label' for='station') Station Type
+                input(name='station' id='station' class='uk-input' type='text')
+            hr(class='uk-divider')
+            div(class='uk-margin')
+                h3 Ingredients
+                div(class='uk-margin')
+                    h5 1.
+                    label(class='uk-form-label' for='ingredient1') Ingredient Name
+                    input(name='ingredient1' id='ingredient1' class='uk-input' type='text')
+                    label(class='uk-form-label' for='quantity1') Quantity
+                    input(name='quantity1' id='quantity1' class='uk-input' type='number')
+                div(class='uk-margin')
+                    h5 2.
+                    label(class='uk-form-label' for='ingredient2') Ingredient Name
+                    input(name='ingredient2' id='ingredient2' class='uk-input' type='text')
+                    label(class='uk-form-label' for='quantity2') Quantity
+                    input(name='quantity2' id='quantity2' class='uk-input' type='number')
+                div(class='uk-margin')
+                    h5 3.
+                    label(class='uk-form-label' for='ingredient3') Ingredient Name
+                    input(name='ingredient3' id='ingredient3' class='uk-input' type='text')
+                    label(class='uk-form-label' for='quantity3') Quantity
+                    input(name='quantity3' id='quantity3' class='uk-input' type='number')
+                div(class='uk-margin')
+                    h5 4.
+                    label(class='uk-form-label' for='ingredient4') Ingredient Name
+                    input(name='ingredient4' id='ingredient4' class='uk-input' type='text')
+                    label(class='uk-form-label' for='quantity4') Quantity
+                    input(name='quantity4' id='quantity4' class='uk-input' type='number')
+            div(class='uk-margin')
+                h4 Crafted Ingredients (not end-products!)
+                div(class='uk-margin')
+                    h5 1.
+                    label(class='uk-form-label' for='craftedIngredient1') Crafted Ingredient Name
+                    input(name='craftedIngredient1' id='craftedIngredient1' class='uk-input' type='text')
+                    label(class='uk-form-label' for='craftedIngredientQty1') Quantity
+                    input(name='craftedIngredientQty1' id='craftedIngredientQty1' class='uk-input' type='number')
+                div(class='uk-margin')
+                    h5 2.
+                    label(class='uk-form-label' for='craftedIngredient2') Crafted Ingredient Name
+                    input(name='craftedIngredient2' id='craftedIngredient2' class='uk-input' type='text')
+                    label(class='uk-form-label' for='craftedIngredientQty2') Quantity
+                    input(name='craftedIngredientQty2' id='craftedIngredientQty2' class='uk-input' type='number')
+            div(class='uk-margin')
+                h4 Crafted Products
+                div(class='uk-margin')
+                    h5 1.
+                    label(class='uk-form-label' for='craftedProduct1') Crafted Product Name
+                    input(name='craftedProduct1' id='craftedProduct1' class='uk-input' type='text')
+                    label(class='uk-form-label' for='craftedProductQty1') Quantity
+                    input(name='craftedProductQty1' id='craftedProductQty1' class='uk-input' type='number')
+                div(class='uk-margin')
+                    h5 2.
+                    label(class='uk-form-label' for='craftedProduct2') Crafted Product Name
+                    input(name='craftedProduct2' id='craftedProduct2' class='uk-input' type='text')
+                    label(class='uk-form-label' for='craftedProductQty2') Quantity
+                    input(name='craftedProductQty2' id='craftedProductQty2' class='uk-input' type='number')
+            div(class='uk-margin')
+                h4 Crafted Byproductrs
+                div(class='uk-margin')
+                    h5 1.
+                    label(class='uk-form-label' for='craftedByproduct1') Crafted Byproduct Name
+                    input(name='craftedByproduct1' id='craftedByproduct1' class='uk-input' type='text')
+                    label(class='uk-form-label' for='craftedByproductQty1') Quantity
+                    input(name='craftedByproductQty1' id='craftedByproductQty1' class='uk-input' type='number')
+                div(class='uk-margin')
+                    h5 2.
+                    label(class='uk-form-label' for='craftedByproduct2') Crafted Byproduct Name
+                    input(name='craftedByproduct2' id='craftedByproduct2' class='uk-input' type='text')
+                    label(class='uk-form-label' for='craftedByproductQty2') Quantity
+                    input(name='craftedByproductQty2' id='craftedByproductQty2' class='uk-input' type='number')
+            button(type='submit' name='submit' class='uk-button uk-button-success') Submit

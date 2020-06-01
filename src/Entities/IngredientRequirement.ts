@@ -1,8 +1,9 @@
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 import { Ingredient } from './Ingredient';
+import { CraftingData } from './CraftingData';
 
 @Entity()
-export class CraftingIngredientRequirement {
+export class IngredientRequirement {
     @PrimaryGeneratedColumn()
     id: number;
 
@@ -11,4 +12,7 @@ export class CraftingIngredientRequirement {
 
     @Column('int')
     quantity: number;
+
+    @ManyToOne(() => CraftingData)
+    craftingData: CraftingData;
 }

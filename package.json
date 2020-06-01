@@ -72,5 +72,8 @@
     },
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.3"
   }
 }

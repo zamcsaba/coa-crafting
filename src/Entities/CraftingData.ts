@@ -1,4 +1,4 @@
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 import { CraftingStationType } from './CraftingStationType';
 import { CraftingProfession } from './CraftingProfession';
 
@@ -6,9 +6,6 @@ import { CraftingProfession } from './CraftingProfession';
 export class CraftingData {
     @PrimaryGeneratedColumn()
     id: number;
-
-    @Column()
-    producedQuantity: number;
 
     @Column()
     level: number;

@@ -1,4 +1,4 @@
-import { Entity, JoinColumn, ManyToOne, OneToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, JoinColumn, ManyToOne, OneToMany, OneToOne, PrimaryGeneratedColumn } from 'typeorm';
 import { CraftingData } from './CraftingData';
 import { Ingredient } from './Ingredient';
 
@@ -10,7 +10,12 @@ export class IngredientCrafting {
     @ManyToOne(() => Ingredient)
     ingredient: Ingredient;
 
-    @OneToOne(() => CraftingData)
-    @JoinColumn()
+    @ManyToOne(type => CraftingData)
     craftingData: CraftingData;
+
+    @Column('int')
+    quantity: number;
+
+    @Column('int', { default: 0 })
+    isByproduct: number;
 }

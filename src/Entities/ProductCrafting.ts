@@ -1,4 +1,4 @@
-import { Entity, JoinColumn, ManyToOne, OneToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, JoinColumn, ManyToOne, OneToOne, PrimaryGeneratedColumn } from 'typeorm';
 import { CraftingData } from './CraftingData';
 import { Product } from './Product';
 
@@ -13,4 +13,7 @@ export class ProductCrafting {
     @OneToOne(() => CraftingData)
     @JoinColumn()
     craftingData: CraftingData;
+
+    @Column('int')
+    quantity: number;
 }
